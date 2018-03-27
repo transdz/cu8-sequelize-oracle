@@ -1,9 +1,40 @@
 {
-  "name": "cu8-sequelize-oracle",
-  "description": "Multi dialect ORM for Node.JS/io.js",
-  "version": "1.0.5",
+  "_args": [
+    [
+      "cu8-sequelize-oracle@1.0.5",
+      "E:\\tharwa\\Backend"
+    ]
+  ],
+  "_from": "cu8-sequelize-oracle@1.0.5",
+  "_id": "cu8-sequelize-oracle@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-N0mpZ/diHsFUSSq/6l10ikRKBFo=",
+  "_location": "/cu8-sequelize-oracle",
+  "_phantomChildren": {
+    "moment": "2.20.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cu8-sequelize-oracle@1.0.5",
+    "name": "cu8-sequelize-oracle",
+    "escapedName": "cu8-sequelize-oracle",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cu8-sequelize-oracle/-/cu8-sequelize-oracle-1.0.5.tgz",
+  "_shasum": "7f17f4705394b3136c54c0d33a50428862c89205",
+  "_spec": "1.0.5",
+  "_where": "E:\\tharwa\\Backend",
   "author": {
     "name": "Nhuan"
+  },
+  "bugs": {
+    "url": "https://github.com/nhuanhoangduc/cu8-sequelize-oracle/issues"
   },
   "contributors": [
     {
@@ -11,13 +42,6 @@
       "email": "nhuan.hoangduc@outlook.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nhuanhoangduc/cu8-sequelize-oracle.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nhuanhoangduc/cu8-sequelize-oracle/issues"
-  },
   "dependencies": {
     "bluebird": "~2.9.24",
     "deasync": "^0.1.9",
@@ -33,6 +57,7 @@
     "toposort-class": "~0.3.0",
     "validator": "^3.34.0"
   },
+  "description": "Multi dialect ORM for Node.JS/io.js",
   "devDependencies": {
     "chai": "^2.1.2",
     "chai-as-promised": "^4.3.0",
@@ -54,6 +79,11 @@
     "tedious": "^1.7.0",
     "watchr": "~2.4.11"
   },
+  "engines": {
+    "node": ">=0.6.21"
+  },
+  "gitHead": "83826c49ea7a680ea606a6fe191bab02522d77aa",
+  "homepage": "https://github.com/nhuanhoangduc/cu8-sequelize-oracle#readme",
   "keywords": [
     "mysql",
     "sqlite",
@@ -64,20 +94,18 @@
     "nodejs",
     "object relational mapper"
   ],
-  "main": "index",
-  "scripts": {
-    "test": "make all",
-    "test-docker": "sudo docker-compose run sequelize /bin/sh -c \"make all\"",
-    "build-docker": "sudo docker-compose build",
-    "docs": "node docs/docs-generator.js"
-  },
-  "engines": {
-    "node": ">=0.6.21"
-  },
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "gitHead": "83826c49ea7a680ea606a6fe191bab02522d77aa",
-  "homepage": "https://github.com/nhuanhoangduc/cu8-sequelize-oracle#readme",
-  "_shasum": "7f17f4705394b3136c54c0d33a50428862c89205",
-  "_from": "cu8-sequelize-oracle@*"
+  "main": "index",
+  "name": "cu8-sequelize-oracle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuanhoangduc/cu8-sequelize-oracle.git"
+  },
+  "scripts": {
+    "build-docker": "sudo docker-compose build",
+    "docs": "node docs/docs-generator.js",
+    "test": "make all",
+    "test-docker": "sudo docker-compose run sequelize /bin/sh -c \"make all\""
+  },
+  "version": "1.0.5"
 }

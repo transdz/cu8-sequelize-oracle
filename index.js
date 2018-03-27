@@ -61,7 +61,6 @@ var Sequelize=require("./lib/sequelize")
     if(typeof sqlQuery === 'object' && sqlQuery.sql){
       sql=sqlQuery.sql;
       options.bind=sqlQuery.bind;
-      options.aliases = sqlQuery.aliases;
     }else{
       sql=sqlQuery;
     }

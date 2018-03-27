@@ -1,7 +1,7 @@
 **Cu8-sequelize-oracle**
 ===================
 
-New Feature - CLOB auto loading 
+3===> New Feature - CLOB auto loading 
 =======
 
 Hey! I'm Nhua Nhua, who came from Mars. Wish you have a nice day and feel comfortable with fucking Oracle DB and NodeJs.
